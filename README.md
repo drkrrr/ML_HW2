@@ -1,7 +1,5 @@
 # Spaceship Titanic
 
-Решение домашнего задания №2 по курсу **ML Start 2026** на основе соревнования **Kaggle Spaceship Titanic**.
-
 > **Задача:** бинарная классификация — предсказать, был ли пассажир перемещён (`Transported`) в другое измерение после пространственной аномалии.
 
 **Kaggle Competition:** https://www.kaggle.com/competitions/spaceship-titanic
@@ -9,8 +7,6 @@
 ---
 
 ## Цель проекта
-
-Цель работы — построить полноценный и понятный ML-пайплайн, последовательно улучшая решение:
 
 **baseline → feature engineering → отбор признаков → подбор моделей → tuning → blending / stacking → final submission**
 
@@ -43,12 +39,12 @@
 
 В работе сравниваются четыре модели:
 
-| Модель | Роль |
-|---|---|
-| Logistic Regression | простой линейный baseline |
-| LightGBM | градиентный бустинг |
-| XGBoost | градиентный бустинг |
-| CatBoost | градиентный бустинг |
+| Модель | 
+|---|
+| Logistic Regression | 
+| LightGBM |
+| XGBoost |
+| CatBoost | 
 
 Все модели оцениваются с помощью **Stratified K-Fold Cross Validation** по метрике `accuracy`.
 
